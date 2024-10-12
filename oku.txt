@@ -24,3 +24,6 @@ pip uninstall -y PyQt6-tools
 pip uninstall -y PyQt6-sip
 pip uninstall -y PyQt6-WebEngine
 pip uninstall -y PyQt6-WebEngine-Qt6
+
+
+
