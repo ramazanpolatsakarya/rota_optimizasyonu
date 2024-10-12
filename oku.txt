@@ -3,8 +3,19 @@ pyuic6 -x src/ui/UIMain.ui -o src/ui/Ui_MainWindow.py
 
 pip install -U -r requirements.txt
 pip install --force-reinstall folium==0.14.0
-numpy 2.0.1 kullanıyor.
 pip install --force-reinstall haversine==2.8.0
+
+
+
+pip install --force-reinstall pyqt6==6.4.2
+pip install --force-reinstall pyqt6-qt6==6.4.3
+pip install --force-reinstall PyQt6-WebEngine-Qt6
+pip install --force-reinstall PyQt6-WebEngine
+
+
+
+numpy 2.0.1 kullanıyor.
+
 
 pip uninstall -y PyQt6
 pip uninstall -y PyQt6-Qt6
@@ -13,11 +24,3 @@ pip uninstall -y PyQt6-tools
 pip uninstall -y PyQt6-sip
 pip uninstall -y PyQt6-WebEngine
 pip uninstall -y PyQt6-WebEngine-Qt6
-
-pip install --force-reinstall pyqt6==6.4.2
-pip install --force-reinstall pyqt6-qt6==6.4.3
-
-pip install --force-reinstall PyQt6-WebEngine-Qt6
-pip install --force-reinstall PyQt6-WebEngine
-
-
